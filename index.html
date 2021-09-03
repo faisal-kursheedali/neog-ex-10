@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cash register</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Cashe Register</h1>
+        <label for="billamount">Enter the bill amount:
+        <input type="number" id="billamount"></label>
+        <label for="givenamount" id="lableofgivenamount"style="visibility: hidden;">Enter the amount you have:
+        <input type="number" id="givenamount" style="visibility: hidden;"></label>
+        <button id="check" style="visibility: hidden;">check</button>
+        <p id="message"></p>
+    </div>
+    <div id="tableContainer">
+    <table style="visibility: hidden;" id="cashtable">
+        <tr>
+            <th>NUMBER OF NOTES</th>
+            <td id='no-of-note'></td>
+            <td id='no-of-note'></td>
+            <td id='no-of-note'></td>
+            <td id='no-of-note'></td>
+            <td id='no-of-note'></td>
+            <td id='no-of-note'></td>
+            <td id='no-of-note'></td>
+        </tr>
+        <tr>
+            <th>NOTES</th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+        </tr>
+    </table>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>

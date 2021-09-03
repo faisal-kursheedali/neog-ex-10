@@ -1,0 +1,54 @@
+body{
+    background-image: url(cashRegister.jpg);
+    font-weight: bold;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: rgba(253, 253, 252, 0.685);
+};
+
+input{
+    display: block;
+    width: auto;
+    margin: auto;
+}
+label{
+    font-size: x-large;
+}
+#tableContainer{
+    width: 50%;
+    visibility: hidden;
+    background-color: rgba(253, 253, 252, 0.685);
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 2%;
+}
+table{
+    width:auto;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+   
+}
+table,tr,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+button{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width:auto;
+}
+#message{
+    font-size: x-large;
+}
